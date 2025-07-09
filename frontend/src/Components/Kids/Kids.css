@@ -1,0 +1,214 @@
+.kids-container {
+  width: 100vw;
+  height: 100vh;
+}
+.kids-banner {
+  width: 100%;
+  height: 600px;
+  margin-top: -30px;
+  background-size: cover;
+}
+.kids-card-container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.kids-card {
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  background: linear-gradient(135deg, #fffefd 50%, #b29deb 50%);
+  transform: skewX(-10deg);
+}
+
+.kids-black {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #040404;
+  color: white;
+  background: linear-gradient(135deg, #4d4c4b 50%, #040404 50%);
+  transform: skewX(-10deg);
+}
+.kids-red {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f10000;
+  color: white;
+  background: linear-gradient(135deg, #fffefd 50%, #f10000 50%);
+  transform: skewX(-10deg);
+}
+.kids-yellow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #d4d438;
+  background: linear-gradient(135deg, #fffefd 50%, #d4d438 50%);
+  transform: skewX(-10deg);
+}
+.kids-green {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #3c972c;
+  background: linear-gradient(135deg, #fffefd 50%, #3c972c 50%);
+  transform: skewX(-10deg);
+}
+.kids-white {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #040404;
+  background: linear-gradient(135deg, #fffefd 50%, #e8e3e3 50%);
+  transform: skewX(-10deg);
+}
+.kids-blue {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #4a54e4;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(135deg, #fffefd 50%, #4a54e4 50%);
+  transform: skewX(-10deg);
+}
+.kids-light-blue {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #41c2d6;
+  color: #040404;
+  background: linear-gradient(135deg, #fffefd 50%, #41c2d6 50%);
+  transform: skewX(-10deg);
+}
+.kids-cement {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6f6e6e;
+  color: #040404;
+  background: linear-gradient(135deg, #fffefd 50%, #6f6e6e 50%);
+  transform: skewX(-10deg);
+}
+.kids-pink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #d40ed1;
+  color: #040404;
+  background: linear-gradient(135deg, #fffefd 50%, #d40ed1 50%);
+  transform: skewX(-10deg);
+}
+.kids-orange {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #e6ac47;
+  color: #040404;
+  background: linear-gradient(135deg, #fffefd 50%, #e6ac47 50%);
+  transform: skewX(-10deg);
+}
+
+.kids-card-image-container {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+}
+.kids-card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.kids-text {
+  padding: 10px;
+  height: 50%;
+  width: 100%;
+}
+.kids-brand {
+  font-weight: 700;
+}
+.kids-popup-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kids-popup {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  padding: 70px;
+}
+.kids-popup-image-container {
+  width: 100%;
+  height: 50%;
+}
+.kids-popup-image {
+  width: 100%;
+  height: 100%;
+}

@@ -26,6 +26,10 @@ class Login extends Component {
   login = async (e) => {
     e.preventDefault()
     const { username, password } = this.state
+    if (!username & !password) {
+      alert("All Feilds Required..")
+      return
+    }
     const userDetails = { username, password }
     const url = "http://localhost:4000/login"
     const options = {
@@ -57,13 +61,23 @@ class Login extends Component {
             type="text"
             placeholder="Enter Username"
             onChange={this.getUsername}
+            required
           />
           <input
             type="text"
             placeholder="Enter Password"
             onChange={this.getPassword}
+            required
           />
           <button type="submit">Log in</button>
+          <div>
+            <p>
+              username: <strong>vijay</strong>
+            </p>
+            <p>
+              password: <strong>123</strong>
+            </p>
+          </div>
         </form>
       </div>
     )
